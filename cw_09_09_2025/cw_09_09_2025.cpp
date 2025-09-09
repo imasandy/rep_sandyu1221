@@ -103,10 +103,10 @@ int main() {
     St array[size];
     int rax = 0;
 
-    cout << "Введіть данні сущності: " << endl;
+    cout << "Vvedit dani sushnosti: " << endl;
     for (int i = 0; i < size; i++) {
         int m = 0;
-        cout << "Чи будете вводити інформацію? (1-так, 2-ні): ";
+        cout << "Chi budete vvoditi info? (1-tak, 2-ni): ";
         cin >> m;
         if (m == 2) break;
         cout << i + 1 << ") ";
